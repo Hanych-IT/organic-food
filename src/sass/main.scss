@@ -1,7 +1,9 @@
-/*
- * Главный файл стилей.
- * Все паршалы подключаются сюда.
- */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&family=Rosario:wght@700&display=swap');
 
-// Стили для файла с примером HTML-фрагмента
-@import './example';
+@import "./components/commonstyle";
+@import "./components/container";
+@import "./utils/veriables";
+@import "./utils/mixins";
+@import "./utils/placeholders";
+@import "./layout/header";
